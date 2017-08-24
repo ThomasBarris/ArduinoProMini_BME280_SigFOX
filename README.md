@@ -1,10 +1,8 @@
 # SigFox Arduino Sensor   
 
-An low power Arduino with a BME280 sensor that sends data over SigFox and finally push the data to an MQTT server  
+A low power Arduino with a BME280 sensor that sends data over SigFox and finally push the data to an MQTT server  
 
 ## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
