@@ -27,7 +27,7 @@ iv)  use the modem ID, PAC to register at [SigFox's backend](https://backend.sig
 v) after that login to Sigfox and set up the message forwarding by clicking on "Device Type" -> on "Name" in the list (last column) -> callbacks -> new
 
 vi) add the message forwarding (callback). The images shows my setting which work with the python script. 
-	[screenshot]: https://1drv.ms/i/s!AoRZPGhUhShFjN4a9s6Ksq1HG2tkHg "SigFox Backend"
+	![Screenshot](GithubSigfox.jpg )
 
 vii) modify the python script and add the data for your mail provider and MQTT server. Add it to cron so it runs every 5 minutes
 	*/5 * * * * /usr/bin/python3 /home/thomas/sigfox/sigfox.py
